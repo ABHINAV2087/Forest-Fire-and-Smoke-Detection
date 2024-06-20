@@ -7,13 +7,12 @@ This project aims to detect forest fires and smoke in images using a Convolution
 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Installation](#installation)
+
 - [Setup](#setup)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture](#model-architecture)
 - [Training the Model](#training-the-model)
 - [Evaluating the Model](#evaluating-the-model)
-- [Visualizing Performance](#visualizing-performance)
 - [Making Predictions](#making-predictions)
 - [Saving and Loading the Model](#saving-and-loading-the-model)
 - [Conclusion](#conclusion)
@@ -46,7 +45,7 @@ The dataset is downloaded from Kaggle and consists of images categorized into th
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```
-git clone https://github.com/yourusername/forest-fire-smoke-detection.git
+git clone https://github.com/ABHINAV2087/Forest-Fire-and-Smoke-Detection.git
 cd forest-fire-smoke-detection
 ```
 
@@ -230,7 +229,7 @@ plot_confusion_matrix(cm, cm_plot_labels, title='Confusion Matrix')
 
 ![alt text](<confusion matrix.png>)
  
-## Predictions on New Images
+## Making Predictions
 
 The model is used to predict new images from the test set.
 
@@ -265,7 +264,7 @@ predict_image('/content/data/data/img_data/test/default/img_114.jpg')
 ### Prediction on testing smoke image : 
 ![alt text](smoke.png)
 
-## Save and Load Model
+## Saving and Loading the Model
 
 The trained model is saved and can be reloaded for future use.
 
