@@ -32,7 +32,7 @@ The dataset is downloaded from Kaggle and consists of images categorized into th
 * Smoke
 * Non-Fire
  
-## [Dataset Link](https://www.kaggle.com/datasets/amerzishminha/forest-fire-smoke-and-non-fire-image-dataset)
+### [Dataset Link](https://www.kaggle.com/datasets/amerzishminha/forest-fire-smoke-and-non-fire-image-dataset)
 
 #### It consists of :-
 
